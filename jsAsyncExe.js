@@ -63,7 +63,6 @@
 //4
 // import fs from "fs";
 
-
 // fs.readFile("./quotes.txt", "utf-8", (err, data) => {
 //     if (err) {
 //         console.log("err");
@@ -95,5 +94,68 @@
 
 // freeMem(4);
 
+
+//6
+// import fs from "fs";
+
+// const date = new Date;
+// fs.readFile("./log.txt", "utf-8", (err, data) => {
+//     if (err) {
+//         console.log("err");
+//         return;
+//     }
+
+//     const d = data;
+//     const currentTime = date.toLocaleTimeString();
+//     const newData = d + `\nCurrent time: ${currentTime}. this nice day`
+//     fs.writeFile("./log.txt", newData, (err) => {
+//         if (err) {
+//             console.log("err");
+//             return;
+//         }
+//         console.log(newData);
+//     })
+// });
+
+
+//7
+// import fs from "fs";
+
+// fs.mkdir("./backup", (err) => {
+//     if (err) {
+//         console.log("its exists");
+//         return;
+//     }
+// })
+
+//8
+// import fs from "fs";
+
+// fs.unlink("./temp.txt", (err) => {
+//     if (err) {
+//         console.log("The file not exists.");
+//         return;
+//     }
+//     console.log("File delete");
+// })
+
+//9
+// import os from "os";
+
+// const cpus = os.cpus();
+// let count = 0;
+
+// cpus.forEach(cpu => {
+//     console.log(`CPU: ${count}. ${cpu.model}`);
+//     count++;
+// });
+
+//10
+// const arr = ["message1", "message2", "message3", "message4"];
+// arr.forEach((message, i) => {
+//     setTimeout(() => {
+//         console.log(message);
+//     },(i + 1) * 1000)
+// })
 
 
