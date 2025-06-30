@@ -35,3 +35,25 @@
 //         })
 //     });
 // })
+
+
+//3
+const counterDown = function(count){
+    if (count <= 0) {
+        console.log("end"); 
+        return;
+    }
+    
+    console.log(count);
+    setTimeout(() => {
+        counterDown(count-1)
+    }, 1000)
+
+}
+
+counterDown(4);
+
+
+
+
+
