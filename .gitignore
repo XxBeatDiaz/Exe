@@ -1,7 +1,34 @@
-"./Exe1.js"
-"./Exe2.js"
-"./Exe3.js"
-"./Exe4.js"
-"./Exe5.js"
-"./Exe6.js"
-"./node-modules"
+
+# תיקיות וקבצים של Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# קבצי סביבה
+.env
+.env.test
+.env.production
+.env.local
+
+# תוצרים של בנייה (למשל אם אתה מקמפל TypeScript או Babel)
+dist/
+build/
+
+# מערכת
+.DS_Store
+Thumbs.db
+
+# תיקיית ההגדרות של VS Code
+.vscode/
+
+# כיסוי קוד (Code coverage)
+coverage/
+
+# לוגים
+*.log
+
+# קבצים זמניים
+*.swp
+*.swo
