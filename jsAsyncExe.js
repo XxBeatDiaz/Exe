@@ -18,3 +18,20 @@
 //         console.log(stats.birthtime);  
 //     });
 // });
+
+
+//2
+// import fs from "fs";
+// import path from "path";
+
+// fs.readdir("./Folder", "utf-8", (err, files) => {
+//     files.forEach(file => {
+//         const fullPath = path.join("./Folder", file);
+
+//         fs.stat(fullPath, (err, stats) => {
+//             if (stats.isFile()) {
+//                 console.log(file);   
+//             }
+//         })
+//     });
+// })
