@@ -38,20 +38,36 @@
 
 
 //3
-const counterDown = function(count){
-    if (count <= 0) {
-        console.log("end"); 
-        return;
-    }
-    
-    console.log(count);
-    setTimeout(() => {
-        counterDown(count-1)
-    }, 1000)
+// const counterDown = function(count){
+//     if (count <= 0) {
+//         console.log("end"); 
+//         return;
+//     }
 
-}
+//     console.log(count);
+//     setTimeout(() => {
+//         counterDown(count-1);
+//     }, 1000)
+// }
 
-counterDown(4);
+// counterDown(4);
+
+//4
+// import fs from "fs";
+
+
+// fs.readFile("./quotes.txt", "utf-8", (err, data) => {
+//     if (err) {
+//         console.log("err");
+//         return;
+//     }
+//     const d = data.split("\n");
+//     const random = Math.floor(Math.random() * d.length);
+//     console.log(d[random]);
+// })
+
+
+//5
 
 
 
